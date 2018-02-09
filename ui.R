@@ -1,5 +1,7 @@
 library(shiny)
 
+billede <- "https://cdn-rdb.arla.com/Files/arla-dk/2636745693/029e06c3-4c5a-428b-8cb0-5f439523ea25.jpg"
+
 shinyUI(fluidPage(
 	tags$b(h1("Drømmekage fra Brovst")),
 	p("Kageopskrift fra ", 
