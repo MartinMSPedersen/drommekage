@@ -1,11 +1,9 @@
 library(shiny)
 
-
 shinyUI(fluidPage(
 	tags$b(h1("Drømmekage fra Brovst")),
 	p("Kageopskrift fra ", 
 	    a("Arla", href = "http://www.arla.dk/opskrifter/drommekage-fra-brovst/")),
-        #img(src = "https://cdn-rdb.arla.com/Files/arla-dk/2636745693/029e06c3-4c5a-428b-8cb0-5f439523ea25.jpg"),
 	img(src = "drommekage.jpg"),
 	p("Hvor mange stykker kage?"),
 	numericInput("antal", "", 10, min = 10, step = 5),
