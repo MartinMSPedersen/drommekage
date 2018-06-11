@@ -15,7 +15,7 @@ shinyUI(fluidPage(
 	tableOutput("fyld"),  
 	h2(tags$i("Sådan gør du")),
 
-	h3(tags$b("Selve kagen")),
+	h3(tags$b("Selve kagen:")),
 	tags$ul(
 	    tags$li("Pisk æg og sukker lyst og luftigt. Varm imens mælk og smør (lillefingervarmt)."),
 	    tags$li("Bland mel, bagepulver og vaniljesukker sammen."),
@@ -23,7 +23,7 @@ shinyUI(fluidPage(
 	    tags$li("Hæld dejen i en lille bradepande beklædt med bagepapir og bag kagen midt i oven.")
 	    ),
 
-	h3(tags$b("Fyldet")),
+	h3(tags$b("Fyldet:")),
 	tags$ul(
 	    tags$li("Kom smør, kokosmel, farin og mælk i en tykbundet gryde og bring det i kog under omrøring."),
 	    tags$li("Tag kagen ud (den skal være næsten færdigbagt) og skru op for ovnen."),
